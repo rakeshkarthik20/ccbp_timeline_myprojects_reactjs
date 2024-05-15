@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.Project-timeline-card-container {
+  width: 480px;
+  flex-wrap: wrap;
+}
+
+.project-image {
+  width: 480px;
+  border-radius: 10px;
+}
+
+.project-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.project-title {
+  font-size: 24px;
+  color: #171f46;
+  font-family: 'Roboto';
+}
+.project-duration-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calender-image {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #171f46;
+}
+.project-duration {
+  font-size: 15px;
+  color: #171f46;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.project-description {
+  font-size: 18px;
+  color: #171f46;
+  font-family: 'Roboto';
+}
+.project-url {
+  color: #0967d2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .Project-timeline-card-container {
+    max-width: 120px;
+  }
+  .project-image {
+    width: 130px;
+  }
+  .project-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .project-title {
+    font-size: 16px;
+  }
+  .calender-image {
+    font-size: 15px;
+    margin-right: 1px;
+  }
+  .project-duration {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .project-description {
+    font-size: 15px;
+  }
+  .project-url {
+    font-size: 15px;
+  }
+}
